@@ -12,12 +12,13 @@ class Signin extends Component {
                     <Jumbotron style={{ backgroundColor: '#89CFF0' }}>
                         <h1>NECESITO HN</h1>
                         <p>
-                            This is a simple hero unit, a simple jumbotron-style component for calling
-                        extra attention to featured content or information.</p>
+                        Una plataforma que permita a los profesionales ofrecer
+                        <br/> 
+                        sus servicios de forma directa y que las personas 
+                        <br/>
+                        interesadas puedan contratarles según sus necesidades. 
+</p>
                         <p>
-                            <Button variant="primary">
-                                {/*<Link to={routes.Home}>Sign In</Link>*/}
-                            </Button>
                         </p>
                     </Jumbotron>
             </div>
