@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Form, FormControl, Nav, Button, Container, Navbar } from 'react-bootstrap';
+import { Form, FormControl, Nav, Button, Navbar } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 import logo from './Picture1.png';
 
 class NavBar extends Component {
@@ -10,7 +11,7 @@ class NavBar extends Component {
                     <Navbar bg="primary" variant="dark" expand="xl">
                         <Navbar.Brand href="#home"> <img src={logo} height="100" alt="logo"/></Navbar.Brand>
                         <Nav className="mr-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Link style={{ color: 'white', fontSize: '130%' }} to={"/Home.js/"}>Sign in</Link>
                             <Nav.Link href="#features">Features</Nav.Link>
                             <Nav.Link href="#pricing">Pricing</Nav.Link>
                         </Nav>

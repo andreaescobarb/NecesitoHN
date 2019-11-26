@@ -8,11 +8,8 @@
     ]
   },
   "hosting": {
-    "headers": [
-      {"source": "/service-worker.js", "headers": [{"key": "Cache-Control", "value": "no-cache"}]}
-    ],
     "site": "necesito-4ed9a",
-    "public": "public",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
