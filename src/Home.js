@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <div>
                 <NavBar />
-                <Container style ={{padding:'10%'}}>
+                <Container style={{ padding: '10%' }}>
                     <Form>
                         <Form.Group controlId="form">
                             <Form.Label>Nombre</Form.Label>
