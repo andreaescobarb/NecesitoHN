@@ -11,8 +11,8 @@ class NavBar extends Component {
                     <Navbar bg="primary" variant="dark" expand="xl">
                         <Navbar.Brand href="#home"> <img src={logo} height="100" alt="logo"/></Navbar.Brand>
                         <Nav className="mr-auto">
-                            <Link style={{ color: 'white', fontSize: '130%' }} to={"/Home.js/"}>Sign in</Link>
-                            <Nav.Link href="#features">Features</Nav.Link>
+                            <Link style={{ color: 'white', fontSize: '120%' }} to={"/Home.js/"}>Sign in</Link>
+                            <Link style={{ color: 'white', fontSize: '120%' }} to={"/Features.js/"}>Features</Link>
                             <Nav.Link href="#pricing">Pricing</Nav.Link>
                         </Nav>
                         <Form inline>
@@ -26,8 +26,5 @@ class NavBar extends Component {
     }
 }
 
-const divStyle = {   
-    color: 'black',
-  };  
 
 export default NavBar;

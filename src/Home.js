@@ -3,12 +3,10 @@ import { Button, Container, Form, } from 'react-bootstrap';
 import NavBar from './Navbar';
 
 class Home extends Component {
-
-
     render() {
         return (
             <div>
-                <NavBar />
+                <NavBar/>
                 <Container style={{ padding: '10%' }}>
                     <Form>
                         <Form.Group controlId="form">
